@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D366DA8296CCB4600BCCE01 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D366DA7296CCB4600BCCE01 /* TodoListViewController.swift */; };
+		6D366DAB296CCF7700BCCE01 /* UITodoListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D366DAA296CCF7700BCCE01 /* UITodoListTableViewCell.swift */; };
+		6D4694BC296B749B00DC87DE /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4694BB296B749B00DC87DE /* TodoList.swift */; };
+		EA20BF5F293611E200B97BE2 /* TodoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA20BF5E293611E200B97BE2 /* TodoTableViewCell.swift */; };
+		EA5AFD6F293F58B600E6D864 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5AFD6E293F58B600E6D864 /* AddViewController.swift */; };
+		EA644630293E2C2E008D0B41 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA64462F293E2C2E008D0B41 /* DetailViewController.swift */; };
+		EAB419762918E85A00C43665 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB419752918E85A00C43665 /* AppDelegate.swift */; };
+		EAB419782918E85A00C43665 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB419772918E85A00C43665 /* SceneDelegate.swift */; };
+		EAB4197A2918E85A00C43665 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB419792918E85A00C43665 /* ViewController.swift */; };
+		EAB4197D2918E85A00C43665 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB4197B2918E85A00C43665 /* Main.storyboard */; };
+		EAB4197F2918E86000C43665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAB4197E2918E86000C43665 /* Assets.xcassets */; };
+		EAB419822918E86000C43665 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB419802918E86000C43665 /* LaunchScreen.storyboard */; };
+		EAB4198B2918E8E500C43665 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB4198A2918E8E500C43665 /* Todo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D366DA7296CCB4600BCCE01 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
+		6D366DAA296CCF7700BCCE01 /* UITodoListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITodoListTableViewCell.swift; sourceTree = "<group>"; };
+		6D4694BB296B749B00DC87DE /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
+		EA20BF5E293611E200B97BE2 /* TodoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewCell.swift; sourceTree = "<group>"; };
+		EA5AFD6E293F58B600E6D864 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		EA64462F293E2C2E008D0B41 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EAB419722918E85A00C43665 /* tp-esirem-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tp-esirem-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB419752918E85A00C43665 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAB419772918E85A00C43665 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EAB419792918E85A00C43665 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EAB4197C2918E85A00C43665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAB4197E2918E86000C43665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAB419812918E86000C43665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAB419832918E86000C43665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAB4198A2918E8E500C43665 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAB4196F2918E85A00C43665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAB419692918E85A00C43665 = {
+			isa = PBXGroup;
+			children = (
+				EAB419742918E85A00C43665 /* tp-esirem-swift */,
+				EAB419732918E85A00C43665 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAB419732918E85A00C43665 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAB419722918E85A00C43665 /* tp-esirem-swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAB419742918E85A00C43665 /* tp-esirem-swift */ = {
+			isa = PBXGroup;
+			children = (
+				6D366DAA296CCF7700BCCE01 /* UITodoListTableViewCell.swift */,
+				EAB419752918E85A00C43665 /* AppDelegate.swift */,
+				EAB419772918E85A00C43665 /* SceneDelegate.swift */,
+				EAB419792918E85A00C43665 /* ViewController.swift */,
+				EAB4197B2918E85A00C43665 /* Main.storyboard */,
+				6D366DA7296CCB4600BCCE01 /* TodoListViewController.swift */,
+				EA5AFD6E293F58B600E6D864 /* AddViewController.swift */,
+				EA64462F293E2C2E008D0B41 /* DetailViewController.swift */,
+				EA20BF5E293611E200B97BE2 /* TodoTableViewCell.swift */,
+				EAB4197E2918E86000C43665 /* Assets.xcassets */,
+				EAB419802918E86000C43665 /* LaunchScreen.storyboard */,
+				EAB419832918E86000C43665 /* Info.plist */,
+				EAB4198A2918E8E500C43665 /* Todo.swift */,
+				6D4694BB296B749B00DC87DE /* TodoList.swift */,
+			);
+			path = "tp-esirem-swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAB419712918E85A00C43665 /* tp-esirem-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAB419862918E86000C43665 /* Build configuration list for PBXNativeTarget "tp-esirem-swift" */;
+			buildPhases = (
+				EAB4196E2918E85A00C43665 /* Sources */,
+				EAB4196F2918E85A00C43665 /* Frameworks */,
+				EAB419702918E85A00C43665 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tp-esirem-swift";
+			productName = "tp-esirem-swift";
+			productReference = EAB419722918E85A00C43665 /* tp-esirem-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAB4196A2918E85A00C43665 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					EAB419712918E85A00C43665 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = EAB4196D2918E85A00C43665 /* Build configuration list for PBXProject "tp-esirem-swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAB419692918E85A00C43665;
+			productRefGroup = EAB419732918E85A00C43665 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAB419712918E85A00C43665 /* tp-esirem-swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAB419702918E85A00C43665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB419822918E86000C43665 /* LaunchScreen.storyboard in Resources */,
+				EAB4197F2918E86000C43665 /* Assets.xcassets in Resources */,
+				EAB4197D2918E85A00C43665 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAB4196E2918E85A00C43665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB4197A2918E85A00C43665 /* ViewController.swift in Sources */,
+				EAB419762918E85A00C43665 /* AppDelegate.swift in Sources */,
+				EA5AFD6F293F58B600E6D864 /* AddViewController.swift in Sources */,
+				6D4694BC296B749B00DC87DE /* TodoList.swift in Sources */,
+				EAB419782918E85A00C43665 /* SceneDelegate.swift in Sources */,
+				6D366DAB296CCF7700BCCE01 /* UITodoListTableViewCell.swift in Sources */,
+				EA644630293E2C2E008D0B41 /* DetailViewController.swift in Sources */,
+				6D366DA8296CCB4600BCCE01 /* TodoListViewController.swift in Sources */,
+				EA20BF5F293611E200B97BE2 /* TodoTableViewCell.swift in Sources */,
+				EAB4198B2918E8E500C43665 /* Todo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EAB4197B2918E85A00C43665 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAB4197C2918E85A00C43665 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAB419802918E86000C43665 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAB419812918E86000C43665 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAB419842918E86000C43665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAB419852918E86000C43665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAB419872918E86000C43665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tp-esirem-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tom-rh.tp-esirem-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAB419882918E86000C43665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tp-esirem-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tom-rh.tp-esirem-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAB4196D2918E85A00C43665 /* Build configuration list for PBXProject "tp-esirem-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB419842918E86000C43665 /* Debug */,
+				EAB419852918E86000C43665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAB419862918E86000C43665 /* Build configuration list for PBXNativeTarget "tp-esirem-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB419872918E86000C43665 /* Debug */,
+				EAB419882918E86000C43665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAB4196A2918E85A00C43665 /* Project object */;
+}
